@@ -18,6 +18,8 @@
 # -------------------------------------------
 # Exercise 1: Personal Information
 # -------------------------------------------
+# Note: Read all of the instructions below first before starting!
+
 # Ask the user for their name and one other fact, such as:
 # - favourite colour
 # - favourite hobby
@@ -34,9 +36,13 @@
 # Write your code below:
 
 
+# Now switch to the next learner's computer!
+
 # -------------------------------------------
 # Exercise 2: Simple Decision
 # -------------------------------------------
+# Note: Read all of the instructions below first before starting!
+
 # Ask the user for their age (integer).
 # Compare their age to a number (like 18 or 21).
 # Use one if-else statement.
@@ -56,9 +62,13 @@
 # Write your code below:
 
 
+# Now switch to the next learner's computer!
+
 # -------------------------------------------
 # Exercise 3: Multiple Conditions
 # -------------------------------------------
+# Note: Read all of the instructions below first before starting!
+
 # Ask the user for their age and a family member's age (integers).
 # Compare the two ages using >, <, or ==.
 # Use if-elif-else to handle three possible cases:

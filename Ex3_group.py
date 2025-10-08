@@ -16,7 +16,7 @@
 # 5. Next learner repeats steps 2–4
 
 # -------------------------------------------
-# Exercise 1: Personal Information
+# Task 1: Personal Information
 # -------------------------------------------
 # Note: Read all of the instructions below first before starting!
 
@@ -39,7 +39,7 @@
 # Now switch to the next learner's computer!
 
 # -------------------------------------------
-# Exercise 2: Simple Decision
+# Task 2: Simple Decision
 # -------------------------------------------
 # Note: Read all of the instructions below first before starting!
 
@@ -65,7 +65,7 @@
 # Now switch to the next learner's computer!
 
 # -------------------------------------------
-# Exercise 3: Multiple Conditions
+# Task 3: Multiple Conditions
 # -------------------------------------------
 # Note: Read all of the instructions below first before starting!
 

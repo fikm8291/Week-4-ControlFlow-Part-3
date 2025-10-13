@@ -108,16 +108,19 @@
 # EXTENSION ACTIVITIES
 # -------------------------------------------
 # Extension 1:
+# -------------------------------------------
 # Ask for two ages and combine conditions using AND / OR.
 # Example scenario: "Is the first age greater than 10 AND the second age less than 20?"
 # Use print() to show True or False
 
 # Extension 2:
+# -------------------------------------------
 # Mini quiz: ask the user two questions (numbers or text)
 # Use if-elif-else to print different messages depending on the answers
 # Example scenario: "If user chooses option1 print 'Option 1 selected', elif option2 print 'Option 2 selected', else print 'Other option'"
 
 # Extension 3 (more challenging):
+# -------------------------------------------
 # Ask for multiple inputs (name, age, favourite colour, food)
 # Use nested if statements or logical operators (and/or)
 # Example scenario: "If age > 15 AND favourite colour is blue, print 'You like blue and are older than 15', else print another message"

@@ -1,141 +1,198 @@
 # -------------------------------------------
 # Exercise 3: Group Exercise
 # -------------------------------------------
-# Work in groups of 2–3 students.
-# Create one shared Python program together using:
-# - Variables
-# - Input & Output
-# - Decision Making (if / elif / else)
-# Use GitHub Classroom to share your work and practice collaboration.
+#
+# GOAL:
+# 1. Create a Python program collaboratively in groups of 2–3.
+# 2. Practise using Variables, Input, and Decision Making (if/elif/else).
+# 3. Master the "Relay Race" style of coding using Git.
+#
+# CONCEPT:
+# Collaborative coding involves multiple developers working on the same codebase.
+# - You will build one program together, layer by layer.
+# - You must use Git to sync your code so everyone has the latest version.
+#
+# PAIR PROGRAMMING RULES:
+# - The DRIVER types the code.
+# - The NAVIGATOR reads the instructions and guides the driver.
+# - You will SWITCH roles and computers after every task!
+# -------------------------------------------
 
-# Workflow:
-# 1. Each learner uses their own computer in turn.
-# 2. Pull latest changes: git pull origin main
-# 3. Add code / fix errors / test program
-# 4. git add, commit, push
-# 5. Next learner repeats steps 2–4
 
 # -------------------------------------------
 # Task 1: Personal Information
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Task 1: The Profile Builder\n"
+    + "-------------------------------------------")
+
 # Note: Read all of the instructions below first before starting!
 
-# Ask the user for their name and one other fact, such as:
-# - favourite colour
-# - favourite hobby
-# Store these in variables and print a message using f-strings.
-
-# Example of syntax only (not the answer):
-# print(f"{person_name} enjoys painting")  # Use your own variables and fact
-
 # TODO:
-# 1. Ask for your name using input()
-# 2. Ask for one personal fact (food, colour, or hobby)
-# 3. Print a message using your variables and f-strings
-
-# Write your code below:
-
-
-# Now switch to the next learner's computer!
-
-# -------------------------------------------
-# Task 2: Simple Decision
-# -------------------------------------------
-# Note: Read all of the instructions below first before starting!
-
-# Ask the user for their age (integer).
-# Compare their age to a number (like 18 or 21).
-# Use one if-else statement.
-# Print one message if the condition is True, another message if False.
-
-# Example of syntax only:
-# if some_condition:
-#     print("You may attend the club")  # Example message, not your answer
-# else:
-#     print("You must wait")            # Example message, not your answer
-
-# TODO:
-# 1. Ask for the user's age and convert it to an integer
-# 2. Compare it to a number using >, <, ==, or !=
-# 3. Print a message if the condition is True and a different message if False
-
-# Write your code below:
-
-
-# Now switch to the next learner's computer!
-
-# -------------------------------------------
-# Task 3: Multiple Conditions
-# -------------------------------------------
-# Note: Read all of the instructions below first before starting!
-
-# Ask the user for their age and a family member's age (integers).
-# Compare the two ages using >, <, or ==.
-# Use if-elif-else to handle three possible cases:
-# - Your age is bigger
-# - Both ages are equal
-# - Your age is smaller
-
-# Example of syntax only:
-# if age1 > age2:
-#     print("First person is taller")      # Example message, not your answer
-# elif age1 == age2:
-#     print("They are the same height")   # Example message, not your answer
-# else:
-#     print("Second person is taller")    # Example message, not your answer
-
-# TODO:
-# 1. Ask for two ages (yours and a family member's)
-# 2. Compare the two ages using >, <, ==
-# 3. Write if-elif-else statements with three different messages
+# 1. Ask the user for their **name**.
+# 2. Ask the user for their **favourite colour**.
+# 3. Store these in descriptive variables.
+# 4. Print a message using an f-string (e.g., "Sam likes Red").
 
 # Write your code below:
 
 
 # -------------------------------------------
-# Submitting Your Work
+# SAVING YOUR WORK
 # -------------------------------------------
-# When you have finished this exercise:
-# 1. Save your file
-# 2. Open the terminal
-# 3. Run the following commands:
+# 1. Save your file.
+# 2. Open the terminal.
+# 3. Run:
 #    git add Ex3_group.py
-#    git commit -m "Completed group exercise"
+#    git commit -m "Completed Task 1"
 #    git push origin main
+#
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
 # -------------------------------------------
+
+
+# -------------------------------------------
+# Task 2: Simple Decision (The Guessing Game)
+# -------------------------------------------
+# INSTRUCTION: You are now at a new computer. Get the latest code!
+# 1. Open the terminal.
+# 2. Run: `git pull origin main`
+
+print("\n-------------------------------------------\n"
+    + "Task 2: The Guessing Game\n"
+    + "-------------------------------------------")
+
+# Note: We are avoiding age checks to keep the logic purely mathematical.
+
+# TODO:
+# 1. Create a variable `secret_number` and set it to 7 (or any number you like).
+# 2. Ask the user to guess a number (Input).
+#    (Remember to convert the input to an integer!)
+# 3. Use an if-else statement:
+#    - IF the guess is equal (==) to the secret number: Print "You won!"
+#    - ELSE: Print "Wrong guess, try again."
+
+# Write your code below:
+
+
+# -------------------------------------------
+# SAVING YOUR WORK
+# -------------------------------------------
+# 1. Save your file.
+# 2. Run:
+#    git add Ex3_group.py
+#    git commit -m "Completed Task 2"
+#    git push origin main
+#
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
+# -------------------------------------------
+
+
+# -------------------------------------------
+# Task 3: Multiple Conditions (High Scores)
+# -------------------------------------------
+# INSTRUCTION: Get the code from the previous Driver.
+# 1. Run: `git pull origin main`
+
+print("\n-------------------------------------------\n"
+    + "Task 3: The High Score Battle\n"
+    + "-------------------------------------------")
+
+# Scenario: We need to compare the scores of two players.
+
+# TODO:
+# 1. Ask for **Player 1's Score** (integer).
+# 2. Ask for **Player 2's Score** (integer).
+# 3. Use if-elif-else to compare them:
+#    - IF Player 1 > Player 2: Print "Player 1 wins!"
+#    - ELIF Player 1 == Player 2: Print "It's a draw!"
+#    - ELSE: Print "Player 2 wins!"
+
+# Write your code below:
+
+
+# -------------------------------------------
+# SAVING YOUR WORK
+# -------------------------------------------
+# 1. Save your file.
+# 2. Run:
+#    git add Ex3_group.py
+#    git commit -m "Completed Task 3"
+#    git push origin main
+#
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
+# -------------------------------------------
+
 
 # -------------------------------------------
 # EXTENSION ACTIVITIES
 # -------------------------------------------
-# Extension 1:
-# -------------------------------------------
-# Ask for two ages and combine conditions using AND / OR.
-# Example scenario: "Is the first age greater than 10 AND the second age less than 20?"
-# Use print() to show True or False
 
-# Extension 2:
+# Extension 1: The Weather Station (Logical Operators)
 # -------------------------------------------
-# Mini quiz: ask the user two questions (numbers or text)
-# Use if-elif-else to print different messages depending on the answers
-# Example scenario: "If user chooses option1 print 'Option 1 selected', elif option2 print 'Option 2 selected', else print 'Other option'"
+# INSTRUCTION: Run `git pull origin main` first.
 
-# Extension 3 (more challenging):
-# -------------------------------------------
-# Ask for multiple inputs (name, age, favourite colour, food)
-# Use nested if statements or logical operators (and/or)
-# Example scenario: "If age > 15 AND favourite colour is blue, print 'You like blue and are older than 15', else print another message"
+print("\n-------------------------------------------\n"
+    + "Extension 1: The Weather Station\n"
+    + "-------------------------------------------")
 
-# Write your extension code below:
+# TODO:
+# 1. Ask the user for the temperature (integer).
+# 2. Ask the user if it is raining (Input "yes" or "no").
+# 3. Use `and` / `or` logic:
+#    - IF temp < 10 AND raining == "yes": Print "Stay inside, it's cold and wet."
+#    - ELSE: Print "You can go outside."
+
+# Write your code below:
 
 
+# Extension 2: The Quiz Master
 # -------------------------------------------
-# Submitting Your Work
+print("\n-------------------------------------------\n"
+    + "Extension 2: The Quiz Master\n"
+    + "-------------------------------------------")
+
+# TODO:
+# 1. Ask the user a general knowledge question (e.g. "What is the capital of France?").
+# 2. Use if-elif-else to handle the answer:
+#    - IF exact match ("Paris"): Print "Correct!"
+#    - ELIF match with wrong case ("paris"): Print "Correct, but capitalize it next time."
+#    - ELSE: Print "Wrong answer."
+
+# Write your code below:
+
+
+# Extension 3: The Adventure Game (Nested Logic)
 # -------------------------------------------
-# When you have finished this exercise:
-# 1. Save your file
-# 2. Open terminal
-# 3. git add Ex3_group.py
-# 4. git commit -m "Completed extension activities"
-# 5. git push origin main
-# Check GitHub to see your changes.
+print("\n-------------------------------------------\n"
+    + "Extension 3: The Adventure Game\n"
+    + "-------------------------------------------")
+
+# TODO:
+# 1. Ask the user to choose a door: "Left" or "Right".
+# 2. IF they choose "Left":
+#    - Ask a second question: "Swim" or "Wait"?
+#    - Print different outcomes for each choice.
+# 3. ELIF they choose "Right":
+#    - Print "You fell into a trap. Game Over."
+# 4. ELSE:
+#    - Print "You didn't move. Nothing happened."
+
+# Write your code below:
+
+
+# -------------------------------------------
+# SAVING YOUR WORK
+# -------------------------------------------
+# 1. Save your file.
+# 2. Open terminal.
+# 3. Run:
+#    git add Ex3_group.py
+#    git commit -m "Completed all extensions"
+#    git push origin main
+#
+# Check GitHub to see your combined work!
 # -------------------------------------------
